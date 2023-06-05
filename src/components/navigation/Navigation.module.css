@@ -1,0 +1,49 @@
+.nav {
+  width: 110px;
+}
+
+.Navlink {
+  font-family: "Monaco";
+  font-weight: 700;
+  font-size: 30px;
+  color: #dc143c;
+}
+
+.Navlink:hover {
+  color: #ffd700;
+}
+
+.LinkActive {
+  font-family: "Monaco";
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffd700;
+}
+
+@media screen and (min-width: 768px) {
+  .Navlink {
+    font-size: 35px;
+  }
+
+  .LinkActive {
+    font-size: 35px;
+  }
+
+  .nav {
+    width: 125px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Navlink {
+    font-size: 40px;
+  }
+
+  .LinkActive {
+    font-size: 40px;
+  }
+
+  .nav {
+    width: 145px;
+  }
+}

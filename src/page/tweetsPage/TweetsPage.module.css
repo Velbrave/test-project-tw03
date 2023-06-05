@@ -1,0 +1,46 @@
+.container {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button {
+  display: flex;
+  padding: 7px 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffd700;
+  background-color: #1e90ff;
+  border-radius: 4px;
+  border: 2px solid #1e90ff;
+  margin-top: 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #1e90ff;
+  background-color: #ffd700;
+}
+
+.btn {
+  display: flex;
+  padding: 7px 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffd700;
+  background-color: #1e90ff;
+  border-radius: 4px;
+  border: 2px solid #1e90ff;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #1e90ff;
+  background-color: #ffd700;
+}
