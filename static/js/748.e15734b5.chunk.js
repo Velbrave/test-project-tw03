@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_project_tw03=self.webpackChunktest_project_tw03||[]).push([[748],{775:function(e,t,a){a.r(t),a.d(t,{default:function(){return r}});a(791);var c=a.p+"static/media/wanna_tweet.c49fcecc17446f4a373d.jpg",s="HomePage_image__awmae",n=a(184),r=function(){return(0,n.jsx)("div",{children:(0,n.jsx)("img",{src:c,alt:"tweets",className:s})})}}}]);
+//# sourceMappingURL=748.e15734b5.chunk.js.map
