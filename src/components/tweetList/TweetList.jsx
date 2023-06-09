@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import vector from "../../images/Vector.png";
-import picture from "../../images/picture2 1.png";
-import rectangle from "../../images/Rectangle 1.png";
-import ellipse from "../../images/Ellipse 1 (Stroke).png";
 import css from "./TweetList.module.css";
 
 const TweetList = ({ id, user, tweets, followers, avatar }) => {
@@ -21,21 +17,16 @@ const TweetList = ({ id, user, tweets, followers, avatar }) => {
 
   return (
     <li className={css.card} key={id}>
-      <div className={css.vector}>
-        <img src={vector} alt="" />
+      <div className={css.logo}></div>
+      <div className={css.image}></div>
+      <div className={css.container}>
+        <div className={css.ellipse}>
+          <div className={css.avatar}>
+            <img src={avatar} alt={user} width="62px" height="62px" />
+          </div>
+        </div>
       </div>
-      <div className={css.picture}>
-        <img src={picture} alt="" />
-      </div>
-      <div className={css.rectangle}>
-        <img src={rectangle} alt="" />
-      </div>
-      <div className={css.ellipse}>
-        <img src={ellipse} alt="" />
-      </div>
-      <div className={css.avatar}>
-        <img src={avatar} alt={user} width="65px" height="64px" />
-      </div>
+
       <p className={css.tweets}>{tweets} tweets</p>
       <p className={css.followers}>{follower} followers</p>
       {isShowBtn ? (

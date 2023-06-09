@@ -15,38 +15,73 @@
   position: relative;
 }
 
-.rectangle {
-  margin-top: 18px;
-}
-
-.picture {
-  display: flex;
-  justify-content: center;
-  padding-top: 28px;
-}
-
-.vector {
+.logo {
   position: absolute;
-  top: 20px;
+  width: 76px;
+  height: 22px;
   left: 20px;
+  top: 20px;
+  background-image: url("../../images/Vector.png");
+  background-repeat: no-repeat;
+}
+.image {
+  position: absolute;
+  width: 308px;
+  height: 168px;
+  left: 36px;
+  top: 28px;
+  background-image: url("../../images/picture2\ 1.png");
+  background-repeat: no-repeat;
 }
 
 .avatar {
-  width: 68px;
-  height: 64px;
-  border: 1px solid;
-  border-radius: 30px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
   position: absolute;
-  top: 41%;
-  left: 42%;
+  top: 9px;
+  left: 9px;
   overflow: hidden;
 }
 
 .ellipse {
+  width: 80px;
+  height: 80px;
   position: absolute;
-  top: 39%;
-  left: 39%;
-  z-index: 100;
+  top: 178px;
+  left: 150px;
+  background: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+  border-radius: 50%;
+}
+
+.container {
+  width: 380px;
+  height: 80px;
+  padding-top: 206px;
+}
+
+.container::before {
+  display: inline-block;
+  content: "";
+  margin-right: 80px;
+  width: 150px;
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.container::after {
+  display: inline-block;
+  content: "";
+  width: 150px;
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
 }
 
 .tweets {
@@ -55,7 +90,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  margin-top: 52px;
+  margin-top: 74px;
   text-transform: uppercase;
   text-align: center;
   color: #ebd8ff;
@@ -92,6 +127,10 @@
   background: #ebd8ff;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
+  cursor: pointer;
+}
+.BtnPlus:hover {
+  background: #5cd3a8;
 }
 
 .BtnMinus {
@@ -113,4 +152,9 @@
   background: #5cd3a8;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
+  cursor: pointer;
+}
+
+.BtnMinus:hover {
+  background: #ebd8ff;
 }

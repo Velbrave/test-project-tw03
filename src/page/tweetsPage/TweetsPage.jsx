@@ -28,7 +28,7 @@ const TweetsPage = () => {
       <button type="button" className={css.button} onClick={handleChange}>
         GoBack
       </button>
-      <ul>
+      <ul className={css.list}>
         {tweets?.length
           ? tweets
               .slice(0, visible)

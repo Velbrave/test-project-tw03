@@ -7,6 +7,14 @@ const Navigation = () => {
     <div className={css.navigation}>
       <nav className={css.nav}>
         <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? css.LinkActive : css.Navlink
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink
           to="/tweets"
           className={({ isActive }) =>
             isActive ? css.LinkActive : css.Navlink

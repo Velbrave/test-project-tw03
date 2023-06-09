@@ -1,5 +1,5 @@
-.nav {
-  width: 110px;
+.navigation {
+  margin-left: 20px;
 }
 
 .Navlink {
@@ -7,6 +7,7 @@
   font-weight: 700;
   font-size: 30px;
   color: #dc143c;
+  margin-right: 10px;
 }
 
 .Navlink:hover {
@@ -18,32 +19,41 @@
   font-weight: 700;
   font-size: 30px;
   color: #ffd700;
+  margin-right: 10px;
+}
+
+.LinkActive:hover {
+  color: #dc143c;
 }
 
 @media screen and (min-width: 768px) {
+  .navigation {
+    margin-left: 30px;
+  }
+
   .Navlink {
     font-size: 35px;
+    margin-right: 15px;
   }
 
   .LinkActive {
     font-size: 35px;
-  }
-
-  .nav {
-    width: 125px;
+    margin-right: 15px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .navigation {
+    margin-left: 40px;
+  }
+
   .Navlink {
     font-size: 40px;
+    margin-right: 20px;
   }
 
   .LinkActive {
     font-size: 40px;
-  }
-
-  .nav {
-    width: 145px;
+    margin-right: 20px;
   }
 }
